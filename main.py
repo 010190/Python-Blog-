@@ -12,6 +12,8 @@ from functools import wraps
 from werkzeug.security import generate_password_hash, check_password_hash
 from wtforms.fields.simple import StringField, PasswordField, SubmitField
 from wtforms.validators import DataRequired
+import os
+
 
 # Import your forms from the forms.py
 from forms import CreatePostForm, CreateCommentForm
